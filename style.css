@@ -1,0 +1,45 @@
+/* modal */
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+.modal{
+    display: none;
+    margin:  auto;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+   background-color: rgb(232, 232, 232);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    line-height: 50px;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+    /* background-color: grey; */
+}
+
+#close-btn{
+    /* height: 20px; */
+    font-size: 1rem;
+    padding: 5px;
+}
+#open-btn{
+    /* height: 20px; */
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.open{
+    display: block;
+}
